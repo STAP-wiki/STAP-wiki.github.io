@@ -6,6 +6,8 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
+disableKinds = ["RSS"]
+
 [[menu.main]]
   name = "STAP-primitives"
   url = "/STAP-primitives/"
