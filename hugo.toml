@@ -5,3 +5,9 @@ path = "github.com/google/docsy"
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
+
+[[menu.main]]
+  name = "STAP-primitives"
+  url = "/STAP-primitives/"
+  weight = 2
