@@ -1,10 +1,9 @@
 <!doctype html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en" class="no-js">
-  <head>
-	<meta name="generator" content="Hugo 0.151.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="alternate" type="application/rss&#43;xml" href="//localhost:1313/index.xml">
+<link rel="alternate" type="application/rss&#43;xml" href="//localhost:1313/stap-primitives/hash-functions/poseidon/index.xml">
 <meta name="robots" content="noindex, nofollow">
 
 
@@ -19,15 +18,20 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title></title>
-<meta name="description" content="">
-<meta property="og:url" content="//localhost:1313/">
+<title>Poseidon | </title>
+<meta name="description" content="Finite field \( \mathbb{F}_p \xrightarrow{} \mathbb{F}_p \) \[ F(a) = \sum_{i=0}^k a_i \]">
+<meta property="og:url" content="//localhost:1313/stap-primitives/hash-functions/poseidon/">
+  <meta property="og:title" content="Poseidon">
+  <meta property="og:description" content="Finite field \( \mathbb{F}_p \xrightarrow{} \mathbb{F}_p \) \[ F(a) = \sum_{i=0}^k a_i \]">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
-  <meta itemprop="datePublished" content="2017-01-05T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2017-01-05T00:00:00+00:00">
+  <meta itemprop="name" content="Poseidon">
+  <meta itemprop="description" content="Finite field \( \mathbb{F}_p \xrightarrow{} \mathbb{F}_p \) \[ F(a) = \sum_{i=0}^k a_i \]">
+  <meta itemprop="wordCount" content="13">
   <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Poseidon">
+  <meta name="twitter:description" content="Finite field \( \mathbb{F}_p \xrightarrow{} \mathbb{F}_p \) \[ F(a) = \sum_{i=0}^k a_i \]">
 <link href="/scss/main.css" rel="stylesheet">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -35,7 +39,7 @@
   crossorigin="anonymous"></script>
 
   </head>
-  <body class="td-home">
+  <body class="td-section">
     <header>
       <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
 <div class="container-fluid flex-column flex-md-row">
@@ -56,10 +60,79 @@
 </div>
 </nav>
     </header>
-    <div class="container-fluid td-default td-outer">
-      <main role="main" class="td-main">
-        
-      </main>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            <div id="td-sidebar-menu" class="td-sidebar__inner">
+  <form class="td-sidebar__search d-flex align-items-center">
+    
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ms-3 fas fa-bars" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="td-sidebar-nav collapse" id="td-section-nav">
+    <ul class="td-sidebar-nav__section pe-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-stap-primitives-li">
+  <a href="/stap-primitives/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-stap-primitives"><span class="">STAP-primitives</span></a>
+  <ul class="ul-1">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-stap-primitiveshash-functions-li">
+  <a href="/stap-primitives/hash-functions/" title="Hash Functions" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-stap-primitiveshash-functions"><span class="">Hash-Functions</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-stap-primitiveshash-functionsexample-page-li">
+  <a href="/stap-primitives/hash-functions/example-page/" title="Example Page" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-stap-primitiveshash-functionsexample-page"><span class="">example-page</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-stap-primitiveshash-functionsposeidon-li">
+  <a href="/stap-primitives/hash-functions/poseidon/" class="align-left ps-0 active td-sidebar-link td-sidebar-link__section" id="m-stap-primitiveshash-functionsposeidon"><span class="td-sidebar-nav-active-item">Poseidon</span></a>
+</li>
+  </ul>
+</li>
+  </ul>
+</li>
+    </ul>
+  </nav>
+</div>
+
+          </aside>
+          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+            <div class="td-page-meta ms-2 pb-1 pt-2 mb-0">
+
+</div>
+
+            
+            
+
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 ps-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="/stap-primitives/">STAP-primitives</a></li>
+  <li class="breadcrumb-item">
+    <a href="/stap-primitives/hash-functions/">Hash-Functions</a></li>
+  <li class="breadcrumb-item active" aria-current="page">
+    Poseidon</li>
+  </ol>
+</nav>
+<div class="td-content">
+	<h1>Poseidon</h1>
+  
+	<header class="article-meta">
+		
+</header>
+	<p>Finite field \( \mathbb{F}_p \xrightarrow{}  \mathbb{F}_p \)
+</p>
+\[ F(a) = \sum_{i=0}^k a_i  \]
+	<div class="section-index">
+    
+    
+    </div>
+</div>
+
+          </main>
+        </div>
+      </div>
       <footer class="td-footer row d-print-none">
   <div class="container-fluid">
     <div class="row mx-md-2">

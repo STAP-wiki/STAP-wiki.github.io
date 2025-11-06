@@ -8,6 +8,19 @@ title = 'My New Hugo Site'
 
 disableKinds = ["RSS"]
 
+[params.katex]
+enable = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+
 [[menu.main]]
   name = "STAP-primitives"
   url = "/STAP-primitives/"
