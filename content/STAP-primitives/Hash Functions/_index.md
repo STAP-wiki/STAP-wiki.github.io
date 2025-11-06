@@ -1,10 +1,7 @@
 ---
-title: Hash Functions
-description: AO Hash
+title: "Hash Functions"
+linkTitle: "Hash-Functions"
 type: docs
-categories: [Hash Functions, Placeholders]
-tags: [CICO]
-weight: 3
 ---
 
 {{% pageinfo %}}
