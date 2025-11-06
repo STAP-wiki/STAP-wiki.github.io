@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alternating-Moduli on </title>
+    <link>//localhost:1313/tags/alternating-moduli/</link>
+    <description>Recent content in Alternating-Moduli on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/alternating-moduli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dark Matter PRF</title>
+      <link>//localhost:1313/stap-primitives/prfs/dark-matter-prf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/stap-primitives/prfs/dark-matter-prf/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Designers&lt;/strong&gt;: Dan Boneh, Yuval Ishai, Alain Passelègue, Amit Sahai, and David J. Wu&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Article&lt;/strong&gt;: Exploring Crypto Dark Matter: New Simple PRF Candidates and Their Applications, TCC 2018&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;It is a low-depth, MPC friendly weak PRF which uses a combination of linear operations in two different fields, and can be implemented in depth-2 \(ACC^0\) circuit. The key space is \(K_λ = Z_p^{m×n}​\), the domain \(X_λ = Z_p^n\)​ and the range \(Y_λ = Z_q\)​ where  \(p\) and \(q\) are primes. Define a nonlinear mapping  \(map_{p,q}\) from \( \{0,1,…p−1 \}^m \) to \(Z_q\)&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

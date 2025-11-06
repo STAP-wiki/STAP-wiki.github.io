@@ -18,9 +18,19 @@
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
+    <loc>//localhost:1313/stap-primitives/prfs/dark-matter-prf/</loc>
+  </url><url>
     <loc>//localhost:1313/blog/first-blog/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/low-depth/</loc>
+  </url><url>
     <loc>//localhost:1313/stap-primitives/hash-functions/poseidon/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/prfs/</loc>
+  </url><url>
+    <loc>//localhost:1313/stap-primitives/prfs/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/prfs/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
   </url>

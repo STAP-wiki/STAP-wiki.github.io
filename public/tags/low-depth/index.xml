@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Low-Depth on </title>
+    <link>//localhost:1313/tags/low-depth/</link>
+    <description>Recent content in Low-Depth on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/low-depth/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dark Matter PRF</title>
+      <link>//localhost:1313/stap-primitives/prfs/dark-matter-prf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/stap-primitives/prfs/dark-matter-prf/</guid>
+      <description>&lt;p&gt;It is a low-depth, MPC friendly weak PRF which uses a combination of linear operations in two different fields, and can be implemented in depth-2 \(ACC^0\) circuit. The key space is \(K_λ = Z_p^{m×n}​\), the domain \(X_λ = Z_p^n\)​ and the range \(Y_λ = Z_q\)​ where  \(p\) and \(q\) are primes. Define a nonlinear mapping  \(map_{p,q}\) from \( \{0,1,…p−1 \}^m \) to \(Z_q\)&#xA;&lt;/p&gt;&#xA;\[ map_{p,q}​ (y) = ∑_{i=1}^n y_i \text{ mod }  q \]&lt;p&gt;&#xA;Then the mod−p/mod−q weak PRF is defined as&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

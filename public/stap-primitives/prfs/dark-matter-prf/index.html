@@ -3,7 +3,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="alternate" type="application/rss&#43;xml" href="//localhost:1313/tags/index.xml">
+<link rel="alternate" type="application/rss&#43;xml" href="//localhost:1313/stap-primitives/prfs/dark-matter-prf/index.xml">
 <meta name="robots" content="noindex, nofollow">
 
 
@@ -18,16 +18,29 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>Tags | </title>
-<meta name="description" content="">
-<meta property="og:url" content="//localhost:1313/tags/">
-  <meta property="og:title" content="Tags">
+<title>Dark Matter PRF | </title>
+<meta name="description" content="Designers: Dan Boneh, Yuval Ishai, Alain Passelègue, Amit Sahai, and David J. Wu
+Article: Exploring Crypto Dark Matter: New Simple PRF Candidates and Their Applications, TCC 2018
+It is a low-depth, MPC friendly weak PRF which uses a combination of linear operations in two different fields, and can be implemented in depth-2 \(ACC^0\) circuit. The key space is \(K_λ = Z_p^{m×n}​\), the domain \(X_λ = Z_p^n\)​ and the range \(Y_λ = Z_q\)​ where \(p\) and \(q\) are primes. Define a nonlinear mapping \(map_{p,q}\) from \( \{0,1,…p−1 \}^m \) to \(Z_q\)">
+<meta property="og:url" content="//localhost:1313/stap-primitives/prfs/dark-matter-prf/">
+  <meta property="og:title" content="Dark Matter PRF">
+  <meta property="og:description" content="Designers: Dan Boneh, Yuval Ishai, Alain Passelègue, Amit Sahai, and David J. Wu
+Article: Exploring Crypto Dark Matter: New Simple PRF Candidates and Their Applications, TCC 2018
+It is a low-depth, MPC friendly weak PRF which uses a combination of linear operations in two different fields, and can be implemented in depth-2 \(ACC^0\) circuit. The key space is \(K_λ = Z_p^{m×n}​\), the domain \(X_λ = Z_p^n\)​ and the range \(Y_λ = Z_q\)​ where \(p\) and \(q\) are primes. Define a nonlinear mapping \(map_{p,q}\) from \( \{0,1,…p−1 \}^m \) to \(Z_q\)">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
-  <meta itemprop="name" content="Tags">
+  <meta itemprop="name" content="Dark Matter PRF">
+  <meta itemprop="description" content="Designers: Dan Boneh, Yuval Ishai, Alain Passelègue, Amit Sahai, and David J. Wu
+Article: Exploring Crypto Dark Matter: New Simple PRF Candidates and Their Applications, TCC 2018
+It is a low-depth, MPC friendly weak PRF which uses a combination of linear operations in two different fields, and can be implemented in depth-2 \(ACC^0\) circuit. The key space is \(K_λ = Z_p^{m×n}​\), the domain \(X_λ = Z_p^n\)​ and the range \(Y_λ = Z_q\)​ where \(p\) and \(q\) are primes. Define a nonlinear mapping \(map_{p,q}\) from \( \{0,1,…p−1 \}^m \) to \(Z_q\)">
+  <meta itemprop="wordCount" content="424">
+  <meta itemprop="keywords" content="Alternating-Moduli,Low-Depth">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Tags">
+  <meta name="twitter:title" content="Dark Matter PRF">
+  <meta name="twitter:description" content="Designers: Dan Boneh, Yuval Ishai, Alain Passelègue, Amit Sahai, and David J. Wu
+Article: Exploring Crypto Dark Matter: New Simple PRF Candidates and Their Applications, TCC 2018
+It is a low-depth, MPC friendly weak PRF which uses a combination of linear operations in two different fields, and can be implemented in depth-2 \(ACC^0\) circuit. The key space is \(K_λ = Z_p^{m×n}​\), the domain \(X_λ = Z_p^n\)​ and the range \(Y_λ = Z_q\)​ where \(p\) and \(q\) are primes. Define a nonlinear mapping \(map_{p,q}\) from \( \{0,1,…p−1 \}^m \) to \(Z_q\)">
 <link href="/scss/main.css" rel="stylesheet">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -35,7 +48,7 @@
   crossorigin="anonymous"></script>
 
   </head>
-  <body class="td-taxonomy">
+  <body class="td-section">
     <header>
       <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
 <div class="container-fluid flex-column flex-md-row">
@@ -56,20 +69,163 @@
 </div>
 </nav>
     </header>
-    <div class="container-fluid td-default td-outer">
-      <main role="main" class="td-main">
-        <div class="td-content">
-  <main class="taxonomy-terms-page">
-    <h1>Tags</h1>
-    <div class="taxonomy taxonomy-terms-cloud taxo-tags">
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            <div id="td-sidebar-menu" class="td-sidebar__inner">
+  <form class="td-sidebar__search d-flex align-items-center">
+    
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ms-3 fas fa-bars" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="td-sidebar-nav collapse" id="td-section-nav">
+    <ul class="td-sidebar-nav__section pe-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-stap-primitives-li">
+  <a href="/stap-primitives/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-stap-primitives"><span class="">STAP-primitives</span></a>
+  <ul class="ul-1">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-stap-primitiveshash-functions-li">
+  <a href="/stap-primitives/hash-functions/" title="Hash Functions" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-stap-primitiveshash-functions"><span class="">Hash-Functions</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-stap-primitiveshash-functionsexample-page-li">
+  <a href="/stap-primitives/hash-functions/example-page/" title="Example Page" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-stap-primitiveshash-functionsexample-page"><span class="">example-page</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-stap-primitiveshash-functionsposeidon-li">
+  <a href="/stap-primitives/hash-functions/poseidon/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-stap-primitiveshash-functionsposeidon"><span class="">Poseidon</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-stap-primitivesprfs-li">
+  <a href="/stap-primitives/prfs/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-stap-primitivesprfs"><span class="">PRFs</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-stap-primitivesprfsdark-matter-prf-li">
+  <a href="/stap-primitives/prfs/dark-matter-prf/" title="Dark Matter PRF" class="align-left ps-0 active td-sidebar-link td-sidebar-link__section" id="m-stap-primitivesprfsdark-matter-prf"><span class="td-sidebar-nav-active-item">dark-matter-prf</span></a>
+</li>
+  </ul>
+</li>
+  </ul>
+</li>
+    </ul>
+  </nav>
+</div>
+
+          </aside>
+          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+            <div class="td-page-meta ms-2 pb-1 pt-2 mb-0">
+
+</div>
+
+            <div class="td-toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#cryptanalysis">Cryptanalysis</a></li>
+    <li><a href="#references">References</a></li>
+    <li><a href="#implementation">Implementation</a></li>
+  </ul>
+</nav>
+      </div>
+    
+            <div class="taxonomy taxonomy-terms-cloud taxo-categories">
+      <h5 class="taxonomy-title">Categories</h5>
       <ul class="taxonomy-terms">
-        <li><a class="taxonomy-term" href="//localhost:1313/tags/low-depth/" data-taxonomy-term="low-depth"><span class="taxonomy-label">Low-Depth</span><span class="taxonomy-count">1</span></a></li>
-        <li><a class="taxonomy-term" href="//localhost:1313/tags/prfs/" data-taxonomy-term="prfs"><span class="taxonomy-label">PRFs</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="//localhost:1313/categories/prfs/" data-taxonomy-term="prfs"><span class="taxonomy-label">PRFs</span><span class="taxonomy-count">1</span></a></li>
         </ul>
     </div>
-  </main>
+  <div class="taxonomy taxonomy-terms-cloud taxo-tags">
+      <h5 class="taxonomy-title">Tags</h5>
+      <ul class="taxonomy-terms">
+        <li><a class="taxonomy-term" href="//localhost:1313/tags/alternating-moduli/" data-taxonomy-term="alternating-moduli"><span class="taxonomy-label">Alternating-Moduli</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="//localhost:1313/tags/low-depth/" data-taxonomy-term="low-depth"><span class="taxonomy-label">Low-Depth</span><span class="taxonomy-count">1</span></a></li>
+        </ul>
+    </div>
+  
+
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 ps-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="/stap-primitives/">STAP-primitives</a></li>
+  <li class="breadcrumb-item">
+    <a href="/stap-primitives/prfs/">PRFs</a></li>
+  <li class="breadcrumb-item active" aria-current="page">
+    dark-matter-prf</li>
+  </ol>
+</nav>
+<div class="td-content">
+	<h1>Dark Matter PRF</h1>
+  
+	<header class="article-meta">
+		<div class="taxonomy taxonomy-terms-article taxo-categories">
+  <h5 class="taxonomy-title">Categories:</h5>
+  <ul class="taxonomy-terms">
+    <li><a class="taxonomy-term" href="//localhost:1313/categories/prfs/" data-taxonomy-term="prfs"><span class="taxonomy-label">PRFs</span></a></li>
+    </ul>
 </div>
-      </main>
+<div class="taxonomy taxonomy-terms-article taxo-tags">
+  <h5 class="taxonomy-title">Tags:</h5>
+  <ul class="taxonomy-terms">
+    <li><a class="taxonomy-term" href="//localhost:1313/tags/alternating-moduli/" data-taxonomy-term="alternating-moduli"><span class="taxonomy-label">Alternating-Moduli</span></a></li>
+    <li><a class="taxonomy-term" href="//localhost:1313/tags/low-depth/" data-taxonomy-term="low-depth"><span class="taxonomy-label">Low-Depth</span></a></li>
+    </ul>
+</div>
+
+</header>
+	<blockquote>
+<p><strong>Designers</strong>: Dan Boneh, Yuval Ishai, Alain Passelègue, Amit Sahai, and David J. Wu</p>
+<p><strong>Article</strong>: Exploring Crypto Dark Matter: New Simple PRF Candidates and Their Applications, TCC 2018</p></blockquote>
+<p>It is a low-depth, MPC friendly weak PRF which uses a combination of linear operations in two different fields, and can be implemented in depth-2 \(ACC^0\) circuit. The key space is \(K_λ = Z_p^{m×n}​\), the domain \(X_λ = Z_p^n\)​ and the range \(Y_λ = Z_q\)​ where  \(p\) and \(q\) are primes. Define a nonlinear mapping  \(map_{p,q}\) from \( \{0,1,…p−1 \}^m \) to \(Z_q\)
+</p>
+\[ map_{p,q}​ (y) = ∑_{i=1}^n y_i \text{ mod }  q \]<p>
+Then the mod−p/mod−q weak PRF is defined as</p>
+\[ F_A(x) = map(Ax) \]<p>for an input \(x \in Z_p^n\)​ and a key A in \(Z_p^{m×n}\)​.</p>
+<p>Here, \( y = Ax \) will be a vector in \(Z_p^m\)​ which is viewed as a vector in \( \{0,1,…p−1 \}^m  \) with integer entries; to which we apply the mapping \(map_{p,q}\)​ to get an output in \(Z_q\).
+For efficiency, authors suggest using a circulant matrix as a key. Moreover, the linear mapping\(map_{p,q}\) can be replaced by multiplication by a public matrix G in Z_q^{l×n}​ to get a longer output. The main focus is on the case of mod−2/mod−3 weak PRF for which the authors provide a distributed evaluation protocol. The authors also propose an ‘alternative’ binary weak PRF F from Z_2^n × Z_2^ n to Z_2^n which can be described as
+</p>
+\[ F(k,x) = (⟨k,x⟩ \text{ mod } 2+⟨k,x⟩ \text{ mod } 3)\text{ mod } 2 \]<p>where both key k and input x are binary vectors of length n.</p>
+<p><img src="revised-parameters-darkmatter.webp" alt="Revised parameters" title="Recommended parameters"></p>
+<h2 id="cryptanalysis">Cryptanalysis</h2>
+<ol>
+<li>
+<p><strong>Authors:</strong> Jung Hee Cheon, Wonhee Cho, Jeong Han Kim, Jiseung Kim</p>
+<p><strong>Title:</strong> Adventures in Crypto Dark Matter: Attacks and Fixes for Weak Pseudorandom Functions, PKC 2021</p>
+<p>Authors propose an attack where the advantage of an alternative Mod-2/Mod-3 weak PRF is 2^{−0.105n} with the size of input space n. Similarly, they provide a heuristic attack for circulant mod−2/mod−3 weak PRF with an advantage 2^{−0.21n}. The attack is based on the conditional probability of certain input vectors given that the outputs are ‘zero’, which deviates from 1/2. They suggest using a circulant key generated by two vectors to prevent this attack.</p>
+</li>
+<li>
+<p><strong>Authors:</strong> Thomas Johansson, Willi Meier, Vu Nguyen</p>
+<p><strong>Title:</strong> Differential cryptanalysis of Mod-2/Mod-3 constructions of binary weak PRFs, IEEE 2023</p>
+<p>Authors propose an improved attack for the alternative weak PRF candidate. Their attack outperforms the attack by Cheon et. al. by achieving complexity of O(2^{0.166n})</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<ol>
+<li>Some reference</li>
+<li>Other reference</li>
+</ol>
+<h2 id="implementation">Implementation</h2>
+<ol>
+<li>Source code link</li>
+</ol>
+
+
+<div class="alert alert-primary" role="alert">
+<h4 class="alert-heading">Note</h4>
+
+    This is a note.
+
+</div>
+
+
+	<div class="section-index">
+    
+    
+    </div>
+</div>
+
+          </main>
+        </div>
+      </div>
       <footer class="td-footer row d-print-none">
   <div class="container-fluid">
     <div class="row mx-md-2">
