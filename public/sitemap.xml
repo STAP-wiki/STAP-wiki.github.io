@@ -5,14 +5,16 @@
     <loc>//localhost:1313/stap-primitives/hash-functions/example-page/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/stap-primitives/hash-functions/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/stap-primitives/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/alternating-moduli/</loc>
   </url><url>
     <loc>//localhost:1313/blog/</loc>
   </url><url>
@@ -29,8 +31,6 @@
     <loc>//localhost:1313/categories/prfs/</loc>
   </url><url>
     <loc>//localhost:1313/stap-primitives/prfs/</loc>
-  </url><url>
-    <loc>//localhost:1313/tags/prfs/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
   </url>

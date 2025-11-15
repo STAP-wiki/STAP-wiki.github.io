@@ -1,6 +1,5 @@
 ---
 title: "Dark Matter PRF"
-linkTitle: "dark-matter-prf"
 type: docs
 tags: [alternating-moduli, low-depth]
 categories: [PRFs]
@@ -12,7 +11,7 @@ math: true
 >
 > **Article**: Exploring Crypto Dark Matter: New Simple PRF Candidates and Their Applications, TCC 2018
 
-It is a low-depth, MPC friendly weak PRF which uses a combination of linear operations in two different fields, and can be implemented in depth-2 \(ACC^0\) circuit. The key space is \(K_λ = Z_p^{m×n}​\), the domain \(X_λ = Z_p^n\)​ and the range \(Y_λ = Z_q\)​ where  \(p\) and \(q\) are primes. Define a nonlinear mapping  \(map_{p,q}\) from \( \{0,1,…p−1 \}^m \) to \(Z_q\)
+It is a low-depth, MPC friendly weak PRF which uses a combination of linear operations in two different fields, and can be implemented in depth-2 \(ACC^0\) circuit. The key space is \(K_λ = Z_p^{m×n}​\), the domain \(X_λ = \mathbb{Z}_p^n\)​ and the range \(Y_λ = Z_q\)​ where  \(p\) and \(q\) are primes. Define a nonlinear mapping  \(map_{p,q}\) from \( \{0,1,…p−1 \}^m \) to \(Z_q\)
 \[ map_{p,q}​ (y) = ∑_{i=1}^n y_i \text{ mod }  q \]
 Then the mod−p/mod−q weak PRF is defined as
 
@@ -26,7 +25,9 @@ For efficiency, authors suggest using a circulant matrix as a key. Moreover, the
 
 where both key k and input x are binary vectors of length n.
 
-![Revised parameters](revised-parameters-darkmatter.webp "Recommended parameters")
+{{< imgproc parameters Fit "600x300" >}}
+Parameters.
+{{< /imgproc >}}
 
 
 ## Cryptanalysis
