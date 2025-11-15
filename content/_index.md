@@ -24,17 +24,4 @@ title: Welcome to Our Site
 {{< /blocks/section >}}
 
 
-{{< blocks/section color="-big-1" type="row" >}}
-{{% blocks/feature icon="fa-lightbulb" title="Fastest OS **on the planet**!" %}}
-The new **TechOS** operating system is an open source project. It is a new project, but with grand ambitions.
-Please follow this space for updates!
-{{% /blocks/feature %}}
-
-{{% blocks/feature %}}
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fa-brands fa-x-twitter" title="Follow us on Twitter!" url="https://twitter.com/GoHugoIO" %}}
-For announcement of latest features etc.
-{{% /blocks/feature %}}
-{{< /blocks/section >}}
 

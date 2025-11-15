@@ -8,10 +8,10 @@
     <language>en</language>
     <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Blog</title>
-      <link>//localhost:1313/blog/first-blog/</link>
+      <title>FreeLunch attack</title>
+      <link>//localhost:1313/blog/freelunch-attack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blog/first-blog/</guid>
+      <guid>//localhost:1313/blog/freelunch-attack/</guid>
       <description></description>
     </item>
   </channel>

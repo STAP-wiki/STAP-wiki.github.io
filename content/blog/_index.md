@@ -3,6 +3,7 @@ title: "Blog"
 linkTitle : "blog"
 menu: {main: {weight: 30}}
 type: blog
+outputs: ["html"]
 ---
 
 This is the **blog** section. It has two categories: News and Releases.
