@@ -1,3 +1,5 @@
+title= "STAP-Zoo"
+
 [module]
 proxy = "direct"
 [[module.imports]]
@@ -7,6 +9,10 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 
 disableKinds = ["RSS"]
+
+[params.ui]
+navbar_logo = false
+
 
 [params.katex]
 enable = true

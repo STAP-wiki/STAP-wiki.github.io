@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anemoi on </title>
+    <title>Anemoi on STAP-Zoo</title>
     <link>//localhost:1313/stap-primitives/hash-functions/anemoi/</link>
-    <description>Recent content in Anemoi on </description>
+    <description>Recent content in Anemoi on STAP-Zoo</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="//localhost:1313/stap-primitives/hash-functions/anemoi/index.xml" rel="self" type="application/rss+xml" />

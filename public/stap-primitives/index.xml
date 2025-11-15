@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>STAP-primitives on </title>
+    <title>STAP-primitives on STAP-Zoo</title>
     <link>//localhost:1313/stap-primitives/</link>
-    <description>Recent content in STAP-primitives on </description>
+    <description>Recent content in STAP-primitives on STAP-Zoo</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
