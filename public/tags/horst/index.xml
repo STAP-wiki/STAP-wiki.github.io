@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Horst on STAP-Zoo</title>
+    <link>//localhost:1313/tags/horst/</link>
+    <description>Recent content in Horst on STAP-Zoo</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/horst/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Griffin</title>
+      <link>//localhost:1313/stap-primitives/hash-functions/griffin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/stap-primitives/hash-functions/griffin/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Designers&lt;/strong&gt;: Lorenzo Grassi, Yonglin Hao, Christian Rechberger, Markus Schofnegger, Roman Walch, Qingju Wang.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Article&lt;/strong&gt;: Horst Meets Fluid-SPN: Griffin for Zero-Knowledge Applications, CRYPTO 2023&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Griffin is a family of sponge hash and compression functions designed for Zero-Knowledge applications, using the internal permutation Griffin-\(\pi\), which is defined over the finite field \(F_t\) where \(t = 3\) or \(t\) is a multiple of four.&lt;/p&gt;&#xA;&lt;p&gt;Griffin is claimed to offer efficient verifiability, high degrees of security in both forward and backward directions, minimal multiplicative complexity, and robust security against algebraic attacks on top of simple arguments against statistical attacks.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

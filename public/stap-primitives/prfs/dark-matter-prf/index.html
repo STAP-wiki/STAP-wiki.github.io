@@ -92,6 +92,8 @@ It is a low-depth, MPC friendly weak PRF which uses a combination of linear oper
   <a href="/stap-primitives/hash-functions/example-page/" title="Example Page" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-stap-primitiveshash-functionsexample-page"><span class="">example-page</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-stap-primitiveshash-functionsanemoi-li">
   <a href="/stap-primitives/hash-functions/anemoi/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-stap-primitiveshash-functionsanemoi"><span class="">Anemoi</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-stap-primitiveshash-functionsgriffin-li">
+  <a href="/stap-primitives/hash-functions/griffin/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-stap-primitiveshash-functionsgriffin"><span class="">Griffin</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-stap-primitiveshash-functionsposeidon-li">
   <a href="/stap-primitives/hash-functions/poseidon/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-stap-primitiveshash-functionsposeidon"><span class="">Poseidon</span></a>
 </li>
@@ -129,9 +131,9 @@ It is a low-depth, MPC friendly weak PRF which uses a combination of linear oper
             <div class="taxonomy taxonomy-terms-cloud taxo-categories">
       <h5 class="taxonomy-title">Categories</h5>
       <ul class="taxonomy-terms">
-        <li><a class="taxonomy-term" href="//localhost:1313/categories/hash-function/" data-taxonomy-term="hash-function"><span class="taxonomy-label">Hash-Function</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="//localhost:1313/categories/hash-function/" data-taxonomy-term="hash-function"><span class="taxonomy-label">Hash-Function</span><span class="taxonomy-count">2</span></a></li>
         <li><a class="taxonomy-term" href="//localhost:1313/categories/prfs/" data-taxonomy-term="prfs"><span class="taxonomy-label">PRFs</span><span class="taxonomy-count">1</span></a></li>
-        <li><a class="taxonomy-term" href="//localhost:1313/categories/spz/" data-taxonomy-term="spz"><span class="taxonomy-label">SPZ</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="//localhost:1313/categories/spz/" data-taxonomy-term="spz"><span class="taxonomy-label">SPZ</span><span class="taxonomy-count">2</span></a></li>
         </ul>
     </div>
   <div class="taxonomy taxonomy-terms-cloud taxo-tags">
@@ -140,6 +142,7 @@ It is a low-depth, MPC friendly weak PRF which uses a combination of linear oper
         <li><a class="taxonomy-term" href="//localhost:1313/tags/alternating-moduli/" data-taxonomy-term="alternating-moduli"><span class="taxonomy-label">Alternating-Moduli</span><span class="taxonomy-count">1</span></a></li>
         <li><a class="taxonomy-term" href="//localhost:1313/tags/ccz-equivalence/" data-taxonomy-term="ccz-equivalence"><span class="taxonomy-label">CCZ-Equivalence</span><span class="taxonomy-count">1</span></a></li>
         <li><a class="taxonomy-term" href="//localhost:1313/tags/flystel/" data-taxonomy-term="flystel"><span class="taxonomy-label">Flystel</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="//localhost:1313/tags/horst/" data-taxonomy-term="horst"><span class="taxonomy-label">Horst</span><span class="taxonomy-count">1</span></a></li>
         <li><a class="taxonomy-term" href="//localhost:1313/tags/low-depth/" data-taxonomy-term="low-depth"><span class="taxonomy-label">Low-Depth</span><span class="taxonomy-count">1</span></a></li>
         </ul>
     </div>
@@ -181,7 +184,8 @@ It is a low-depth, MPC friendly weak PRF which uses a combination of linear oper
 </header>
 	<blockquote>
 <p><strong>Designers</strong>: Dan Boneh, Yuval Ishai, Alain Passelègue, Amit Sahai, and David J. Wu</p>
-<p><strong>Article</strong>: Exploring Crypto Dark Matter: New Simple PRF Candidates and Their Applications, TCC 2018</p></blockquote>
+<p><strong>Article</strong>: Exploring Crypto Dark Matter: New Simple PRF Candidates and Their Applications, TCC 2018</p>
+</blockquote>
 <p>It is a low-depth, MPC friendly weak PRF which uses a combination of linear operations in two different fields, and can be implemented in depth-2 \(ACC^0\) circuit. The key space is \(K_λ = Z_p^{m×n}​\), the domain \(X_λ = \mathbb{Z}_p^n\)​ and the range \(Y_λ = Z_q\)​ where  \(p\) and \(q\) are primes. Define a nonlinear mapping  \(map_{p,q}\) from \( \{0,1,…p−1 \}^m \) to \(Z_q\)
 </p>
 \[ map_{p,q}​ (y) = ∑_{i=1}^n y_i \text{ mod }  q \]<p>
