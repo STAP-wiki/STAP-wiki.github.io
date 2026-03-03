@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hash Functions on STAP-Zoo</title>
+    <link>//localhost:1313/stap-primitives-copy/hash-functions/</link>
+    <description>Recent content in Hash Functions on STAP-Zoo</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/stap-primitives-copy/hash-functions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Page</title>
+      <link>//localhost:1313/stap-primitives-copy/hash-functions/example-page/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/stap-primitives-copy/hash-functions/example-page/</guid>
+      <description>&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;del&gt;strikethrough&lt;/del&gt;. &lt;a href=&#34;https://gohugo.io&#34;&gt;Links&lt;/a&gt; should be blue with no underlines (unless hovered over).&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;This is the final element on the page and there should be no margin below this.&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>

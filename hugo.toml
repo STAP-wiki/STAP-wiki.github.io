@@ -13,6 +13,8 @@ disableKinds = ["RSS"]
 [params.ui]
 navbar_logo = false
 
+[params.footer]
+copyright = "© 2026 **STAP-Zoo**. All Rights Reserved. Built with AI assistance."
 
 [params.katex]
 enable = true
@@ -27,7 +29,3 @@ enable = true
           inline = [['\(', '\)'], ['$', '$']]
 
 
-[[menu.main]]
-  name = "STAP-primitives"
-  url = "/STAP-primitives/"
-  weight = 2

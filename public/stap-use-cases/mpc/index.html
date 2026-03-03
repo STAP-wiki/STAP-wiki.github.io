@@ -1,0 +1,216 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en" class="no-js">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="alternate" type="application/rss&#43;xml" href="//localhost:1313/stap-use-cases/mpc/index.xml">
+<meta name="robots" content="noindex, nofollow">
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>Multi Party Computation | STAP-Zoo</title>
+<meta name="description" content="Multi Party Computation (MPC) is a cryptographic protocol dividing a computation among multiple parties where no single party can see the data of the other parties.
+MPC-friendly Encryption As opposed to traditional ciphers built from linear and non-linear building blocks for applications where these two have roughly similar costs in hardware and software implementations, the situation is radically different for ciphers implemented in an MPC protocol. Linear operations come almost for free since they only incur local computation, whereas the bottleneck is non-linear operations that involve symmetric cryptographic operations and communication between parties.">
+<meta property="og:url" content="//localhost:1313/stap-use-cases/mpc/">
+  <meta property="og:site_name" content="STAP-Zoo">
+  <meta property="og:title" content="Multi Party Computation">
+  <meta property="og:description" content="Multi Party Computation (MPC) is a cryptographic protocol dividing a computation among multiple parties where no single party can see the data of the other parties.
+MPC-friendly Encryption As opposed to traditional ciphers built from linear and non-linear building blocks for applications where these two have roughly similar costs in hardware and software implementations, the situation is radically different for ciphers implemented in an MPC protocol. Linear operations come almost for free since they only incur local computation, whereas the bottleneck is non-linear operations that involve symmetric cryptographic operations and communication between parties.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+
+  <meta itemprop="name" content="Multi Party Computation">
+  <meta itemprop="description" content="Multi Party Computation (MPC) is a cryptographic protocol dividing a computation among multiple parties where no single party can see the data of the other parties.
+MPC-friendly Encryption As opposed to traditional ciphers built from linear and non-linear building blocks for applications where these two have roughly similar costs in hardware and software implementations, the situation is radically different for ciphers implemented in an MPC protocol. Linear operations come almost for free since they only incur local computation, whereas the bottleneck is non-linear operations that involve symmetric cryptographic operations and communication between parties.">
+  <meta itemprop="wordCount" content="535">
+  <meta itemprop="keywords" content="STAP-Use-Cases">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Multi Party Computation">
+  <meta name="twitter:description" content="Multi Party Computation (MPC) is a cryptographic protocol dividing a computation among multiple parties where no single party can see the data of the other parties.
+MPC-friendly Encryption As opposed to traditional ciphers built from linear and non-linear building blocks for applications where these two have roughly similar costs in hardware and software implementations, the situation is radically different for ciphers implemented in an MPC protocol. Linear operations come almost for free since they only incur local computation, whereas the bottleneck is non-linear operations that involve symmetric cryptographic operations and communication between parties.">
+<link href="/scss/main.css" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body class="td-section">
+    <header>
+      <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
+<div class="container-fluid flex-column flex-md-row">
+  <a class="navbar-brand" href="/"><span class="navbar-brand__logo navbar-logo"></span><span class="navbar-brand__name">STAP-Zoo</span></a>
+  <div class="td-navbar-nav-scroll ms-md-auto" id="main_navbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/about-us/"><span>About Us</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="/stap-use-cases/"><span>STAP-use-cases</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/stap-primitives/"><span>STAP-primitives</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/blog/"><span>blog</span></a>
+      </li>
+      </ul>
+  </div>
+  <div class="d-none d-lg-block">
+    
+  </div>
+</div>
+</nav>
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            <div id="td-sidebar-menu" class="td-sidebar__inner">
+  <form class="td-sidebar__search d-flex align-items-center">
+    
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ms-3 fas fa-bars" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="td-sidebar-nav collapse" id="td-section-nav">
+    <ul class="td-sidebar-nav__section pe-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-stap-use-cases-li">
+  <a href="/stap-use-cases/" title="STAP-primitives" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-stap-use-cases"><span class="">STAP-use-cases</span></a>
+  <ul class="ul-1">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-stap-use-casesmpc-li">
+  <a href="/stap-use-cases/mpc/" class="align-left ps-0 active td-sidebar-link td-sidebar-link__section" id="m-stap-use-casesmpc"><span class="td-sidebar-nav-active-item">Multi Party Computation</span></a>
+</li>
+  </ul>
+</li>
+    </ul>
+  </nav>
+</div>
+
+          </aside>
+          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+            <div class="td-page-meta ms-2 pb-1 pt-2 mb-0">
+
+</div>
+
+            <div class="td-toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#mpc-friendly-encryption">MPC-friendly Encryption</a></li>
+    <li><a href="#mpc-for-boolean-circuits">MPC for Boolean circuits</a></li>
+    <li><a href="#arithmetic-masking-friendly-block-ciphers">Arithmetic Masking-friendly Block Ciphers</a></li>
+    <li><a href="#correlated-prfs">Correlated PRFs</a></li>
+  </ul>
+</nav>
+      </div>
+    
+            <div class="taxonomy taxonomy-terms-cloud taxo-categories">
+      <h5 class="taxonomy-title">Categories</h5>
+      <ul class="taxonomy-terms">
+        <li><a class="taxonomy-term" href="//localhost:1313/categories/hash-function/" data-taxonomy-term="hash-function"><span class="taxonomy-label">Hash-Function</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="//localhost:1313/categories/prfs/" data-taxonomy-term="prfs"><span class="taxonomy-label">PRFs</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="//localhost:1313/categories/spz/" data-taxonomy-term="spz"><span class="taxonomy-label">SPZ</span><span class="taxonomy-count">1</span></a></li>
+        </ul>
+    </div>
+  <div class="taxonomy taxonomy-terms-cloud taxo-tags">
+      <h5 class="taxonomy-title">Tags</h5>
+      <ul class="taxonomy-terms">
+        <li><a class="taxonomy-term" href="//localhost:1313/tags/alternating-moduli/" data-taxonomy-term="alternating-moduli"><span class="taxonomy-label">Alternating-Moduli</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="//localhost:1313/tags/ccz-equivalence/" data-taxonomy-term="ccz-equivalence"><span class="taxonomy-label">CCZ-Equivalence</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="//localhost:1313/tags/flystel/" data-taxonomy-term="flystel"><span class="taxonomy-label">Flystel</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="//localhost:1313/tags/low-depth/" data-taxonomy-term="low-depth"><span class="taxonomy-label">Low-Depth</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="//localhost:1313/tags/stap-use-cases/" data-taxonomy-term="stap-use-cases"><span class="taxonomy-label">STAP-Use-Cases</span><span class="taxonomy-count">1</span></a></li>
+        </ul>
+    </div>
+  
+
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 ps-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="/stap-use-cases/">STAP-use-cases</a></li>
+  <li class="breadcrumb-item active" aria-current="page">
+    Multi Party Computation</li>
+  </ol>
+</nav>
+<div class="td-content">
+	<h1>Multi Party Computation</h1>
+  
+	<header class="article-meta">
+		<div class="taxonomy taxonomy-terms-article taxo-tags">
+  <h5 class="taxonomy-title">Tags:</h5>
+  <ul class="taxonomy-terms">
+    <li><a class="taxonomy-term" href="//localhost:1313/tags/stap-use-cases/" data-taxonomy-term="stap-use-cases"><span class="taxonomy-label">STAP-Use-Cases</span></a></li>
+    </ul>
+</div>
+
+</header>
+	
+
+<div class="pageinfo pageinfo-primary">
+<p>Multi Party Computation (MPC) is a cryptographic protocol dividing a computation among multiple parties where no single party can see the data of the other parties.</p>
+
+</div>
+
+<h2 id="mpc-friendly-encryption">MPC-friendly Encryption</h2>
+<p>As opposed to traditional ciphers built from linear and non-linear building blocks for applications where these two have roughly similar costs in hardware and software implementations, the situation is radically different for ciphers implemented in an MPC protocol. Linear operations come almost for free since they only incur local computation, whereas the bottleneck is non-linear operations that involve symmetric cryptographic operations and communication between parties.</p>
+<p>This cost metric suggests that ciphers that find a use-case in MPC protocols should desirably minimize their use of non-linear operations while most cryptographically relevant work is performed as linear operations. This design philosophy is related to the fundamental theoretical question of the minimal multiplicative complexity (MC) of certain tasks, which is simply the number of multiplications (AND gates) in a circuit. A lower MC allows for a positive impact on latency and throughput of the MPC evaluation of the cipher, making it an essential feature of the circuit.</p>
+<h2 id="mpc-for-boolean-circuits">MPC for Boolean circuits</h2>
+<p>There are two classes of practically efficient secure MPC protocols for securely evaluating Boolean circuits where XOR gates are considerably cheaper (no communication and less computation) than AND gates. The first has a constant number of rounds, and their total amount of communication depends on the MC of the circuit since each AND gate requires communication. The second has a round complexity that is linear in the multiplicative depth of the evaluated circuit since each AND gate requires interaction, and hence the performance depends on both the MC and multiplicative depth of the circuit.</p>
+<h2 id="arithmetic-masking-friendly-block-ciphers">Arithmetic Masking-friendly Block Ciphers</h2>
+<p>Masking is a counter-measure against side-channel attacks that ultimately relies on MPC techniques. Indeed, the core idea is to perform the computation to protect using multiple statistically independent shares that need to be recombined to obtain the output. An attacker trying to gather information about the internal properties of the device running the encryption algorithm then needs to place probes in multiple positions, greatly increasing the cost of their attack.</p>
+<p>In recent years, masking over prime fields has been argued to be inherently more efficient than masking operating on Boolean variables. This insight has lead to the design of masking-friendly block ciphers operating over a finite field of size p, p a small prime (e.g. 127). The efficiency metric is then, like above, closely related to the multiplicative complexity of the primitive (and in turn to the degree of the round function).</p>
+<h2 id="correlated-prfs">Correlated PRFs</h2>
+<p>During initialization, several MPC protocols require the users to be provided with correlated random bits. These are the output of a correlated pseudo-random function (cPRF), a dedicated primitive with unusual cost metrics and security model. As always with STAPs, the cost metric is dictated by the specifics of the higher level protocol; for example, the function may need to be quadratic. The security model is more relaxed than usual for PRFs: indeed, the attacker is not allowed to choose the input of the queries. While they can see plaintext/output pairs, they do not get to chose the plaintext; instead, these are obtained by sampling a uniform distribution.</p>
+
+	<div class="section-index">
+    
+    
+    </div>
+</div>
+
+          </main>
+        </div>
+      </div>
+      <footer class="td-footer row d-print-none">
+  <div class="container-fluid">
+    <div class="row mx-md-2">
+      <div class="td-footer__left col-6 col-sm-4 order-sm-1">
+        
+      </div><div class="td-footer__right col-6 col-sm-4 order-sm-3">
+        
+      </div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2">
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    
+      <link rel="stylesheet" href="/css/katex.css" integrity="sha512-1jSEPj&#43;0P3loEV9Bqx/6P3V6MXp4SGDSuLZwvwOECspSHwdHhQvGd27PJba8AVpwUldurvLTgzN&#43;oX37uNiwOw==" crossorigin="anonymous">
+    
+      <script defer src="/js/katex.js" integrity="sha512-SsCfJSwvttjJN3DgeFwdnHJYdiUV9oLZzH38EU/Z9KNa8OfNbAvy3X7TDLqsUn9KcxnX9Z3sh40v2NdaCe0R/Q==" crossorigin="anonymous" ></script>
+    
+      <script defer src="/js/auto-render.js" integrity="sha512-4bQtxbbsOaDcbu2OFUKZhKrd0X9F2cyGnIt84nVL3K1XpzeiZBzyEepWhMAb3ZUDylETFkLzgZoV8ZpTLIncow==" crossorigin="anonymous"
+onload='renderMathInElement(document.body, null);'>
+</script>
+    <script src="/js/main.js"></script>
+<script defer src="/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src='/js/tabpane-persist.js'></script>
+
+  </body>
+</html>

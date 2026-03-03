@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>STAP-Use-Cases on STAP-Zoo</title>
+    <link>//localhost:1313/tags/stap-use-cases/</link>
+    <description>Recent content in STAP-Use-Cases on STAP-Zoo</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/stap-use-cases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi Party Computation</title>
+      <link>//localhost:1313/stap-use-cases/mpc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/stap-use-cases/mpc/</guid>
+      <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;Multi Party Computation (MPC) is a cryptographic protocol dividing a computation among multiple parties where no single party can see the data of the other parties.&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;mpc-friendly-encryption&#34;&gt;MPC-friendly Encryption&lt;/h2&gt;&#xA;&lt;p&gt;As opposed to traditional ciphers built from linear and non-linear building blocks for applications where these two have roughly similar costs in hardware and software implementations, the situation is radically different for ciphers implemented in an MPC protocol. Linear operations come almost for free since they only incur local computation, whereas the bottleneck is non-linear operations that involve symmetric cryptographic operations and communication between parties.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

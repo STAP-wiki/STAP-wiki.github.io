@@ -2,7 +2,9 @@
 title: "STAP-primitives"
 linkTitle: "STAP-primitives"
 type: docs
-weightt: 1
+menu: {main: {weight: 20}}
+weightt: 2
+outputs: ["html"]
 ---
 
 {{% pageinfo %}}
